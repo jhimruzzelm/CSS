@@ -1,0 +1,153 @@
+body {
+    background-image: url('p.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+h1 {
+    color: rgb(22, 21, 21);
+    font-size: 40px;
+}
+h3{
+    color: rgb(132, 0, 132);
+    font-size: 25px;
+}
+h5{
+    margin-left: 25%;
+
+}
+input[type=text] :focus, input[type=password] :focus {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+.check
+{
+    width:15px;
+    height:15px; 
+    position:relative;
+    top:100px
+}
+.w-input
+{
+    border: none;
+    border-bottom: 2px solid #000000;
+    padding:5px;
+    display:block;
+    width: 90%;
+
+}
+.right-panel {
+    border-style: solid;
+    border: 5px solid pink;
+    border-radius: 30px;
+    padding: 18px;
+    float: right;
+    width: 30%; 
+    padding: 10px;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+.container {
+    padding:0.01em 16px
+}
+.button{
+    border:none;
+    color: black;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+}.button1{
+    background-color: pink;
+}
+.button1:hover{
+    background-color: rgb(255, 149, 167);
+}
+.button1:active {
+    background-color: palevioletred;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button2{
+    background-color: rgb(86, 184, 86);
+    float:right;
+}
+.button2:hover{
+    background-color: rgb(5, 216, 5);
+    float:right;
+}
+.button2:active {
+    background-color: #698f2d;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.strong-ex{
+    text-decoration: underline;
+}
+img{
+    position: absolute;
+}
+.left-panel{
+    float: left;
+    margin-left:  15%;
+    margin-top: 25%;
+}
+.email{
+    border-style: solid;
+    border-radius: 50px;
+    width: 40%;
+    height: 40%;
+    padding: 13px;
+}
+.fb{
+    background-color: #0080ff;
+    border: #0080ff ;
+    border-style: solid;
+    border-radius: 30px;
+    width: 93%;
+    height: 50px;
+    padding: 13px;
+}
+.google{
+   margin-top: 40px;
+   background-color: white;
+   border: white;
+   border-style: solid;
+   border-radius: 30px;
+   padding: 13px 20px;
+   width: 85%;
+   height: 50px;
+}
+.apple{
+   margin-top: 40px;
+   background-color: rgb(0, 0, 0);
+   border: rgb(0, 0, 0);
+   border-style: solid;
+   border-radius: 30px;
+   padding: 13px 20px;
+   width: 84%;
+   height: 50px;
+   text-emphasis-color: white;
+}
+h4{
+    color: white;
+}
+.inputicon input[type=text], input[type=password] {
+    padding-left: 40px;
+}
+.inputicon{
+    position: relative;
+}
+.inputicon i{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    padding: 9px 6px;
+    color: #e068c2;
+}
